@@ -5,16 +5,18 @@ clustering, map visualisation, and clinopyroxene-liquid thermobarometry presente
 the manuscript "Recurrent evacuation of mantle mush by mafic recharge in ocean islands
 revealed by clinopyroxene from La Palma" (Caracciolo et al.).
 
-Map and single-spot trace-element data are archived on Zenodo:[10.5281/zenodo.21081067](https://doi.org/10.5281/zenodo.21081067)
+Map and single-spot trace-element data are archived on Zenodo:
+https://zenodo.org/records/21081067
 
 ## Folder layout
 
+```
 SupplementaryMaterial_CumbreVieja/
 ├── Clustering_LaPalma_Final.ipynb
 ├── Figure5_LaPalma_Final.ipynb
 ├── README_LaPalma.md
 ├── requirements.txt
-├── Maps_SingleSpots_LaPalma/        
+├── Maps_SingleSpots_LaPalma/
 │   ├── ElCharco1712/ ...
 │   ├── Teneguia1971/ ...
 │   ├── 2021LaPalma/ ...
@@ -24,6 +26,7 @@ SupplementaryMaterial_CumbreVieja/
     ├── Input_ElCharco1712.xlsx
     ├── Input_Teneguia1971.xlsx
     └── Input_Tajogaite2021.xlsx
+```
 
 Inside the main folder you will find the following Jupyter notebooks:
 
@@ -55,7 +58,8 @@ Python 3.10. All required packages are listed in `requirements.txt`.
    link above) in the same directory as `Clustering_LaPalma_Final.ipynb` and
    `Figure5_LaPalma_Final.ipynb`.
 2. Create and activate a Python 3.10 environment, then install the requirements:
-   ```pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
    ```
 3. Navigate to the folder that contains the codes and run `jupyter lab`, or
    open the folder in VS Code. 
